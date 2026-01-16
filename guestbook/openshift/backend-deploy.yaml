@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: viktor-guestbook-backend
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: viktor-guestbook-backend
