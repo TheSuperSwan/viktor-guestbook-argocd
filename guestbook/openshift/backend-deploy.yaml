@@ -13,7 +13,7 @@ spec:
         app: viktor-guestbook-backend
     spec:
       containers:
-        - name: backend
+        - name: viktor-guestbook-backend
           image: ghcr.io/thesuperswan/guestbook-backend:latest
           imagePullPolicy: Always
           ports:
@@ -49,7 +49,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: backend
+  name: viktor-guestbook-backend
 spec:
   selector:
     app: viktor-guestbook-backend
