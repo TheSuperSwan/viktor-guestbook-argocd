@@ -1,8 +1,0 @@
-# Guestbook project with ArgoCD
-
-
-
-
-
-
-
