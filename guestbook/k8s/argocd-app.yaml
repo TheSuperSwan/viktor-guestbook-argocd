@@ -1,17 +1,17 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: thaiha-guestbook-argocd
+  name: viktor-guestbook-argocd
   namespace: openshift-gitops 
 spec:
   project: default
   source:
-    repoURL: https://github.com/thaiha-hub/LE_guestbook_ArgoCD
+    repoURL: https://github.com/TheSuperSwan/viktor-guestbook-argocd
     targetRevision: HEAD
     path: k8s
   destination:
     server: https://kubernetes.default.svc
-    namespace: grupp2
+    namespace: grupp5
   syncPolicy:
     automated:
       prune: true
