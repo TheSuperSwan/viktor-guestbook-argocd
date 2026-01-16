@@ -18,7 +18,7 @@ spec:
   resources:
     requests:
       storage: 2Gi
-    storageClassName: lvms-vg1
+  storageClassName: lvms-vg1
 ---
 apiVersion: apps/v1
 kind: Deployment
