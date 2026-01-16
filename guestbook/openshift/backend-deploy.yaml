@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: viktor-guestbook-backend
-          image: ghcr.io/thesuperswan/guestbook-backend:latest
+          image: ghcr.io/thesuperswan/guestbook-backend-argocd:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
